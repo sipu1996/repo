@@ -92,5 +92,5 @@ def main():
 
     post_process_tree(args.source_root, args.log_dir)
 """ +------------------------------------------------------"""
-"""if __name__ == "__main__":
-    main()"""
+if __name__ == "__main__":
+    main()
