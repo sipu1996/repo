@@ -75,7 +75,7 @@ def create_log(log_dir, result):
     with open(log, "a", encoding="utf-8") as log_file:
         log_file.write(result)
 """+------------------------------------------------------"""
-def main():
+"""def main():
     """Identify images with text to assess localization impact"""
     parser = argparse.ArgumentParser(
         description='Identify images with text to assess localization impact')
@@ -90,7 +90,7 @@ def main():
         help='Log directory')
     args = parser.parse_args(sys.argv[1:])
 
-    post_process_tree(args.source_root, args.log_dir)
+    post_process_tree(args.source_root, args.log_dir)"""
 """ +------------------------------------------------------"""
 if __name__ == "__main__":
     main()
