@@ -86,7 +86,7 @@ def main():
     parser.add_argument(
         '--logdir',
         dest='log_dir',
-        metavar='<source_root>',
+        metavar='<dir>',
         help='Log directory')
     args = parser.parse_args(sys.argv[1:])
 
