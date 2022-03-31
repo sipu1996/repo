@@ -11,7 +11,7 @@ import cv2
 import pytesseract
 
 """To fix issue - tesseract is not installed or it's not in your PATH"""
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
 """+------------------------------------------------------"""
 def post_process_tree(source_root, log_dir):
     """Post process image files"""
