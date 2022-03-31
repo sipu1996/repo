@@ -85,6 +85,7 @@ def main():
         help='Source path containing images')
     parser.add_argument(
         '--logdir',
+       dest='log_dir',
         metavar='<dir>',
         help='Log directory')
     args = parser.parse_args(sys.argv[1:])
