@@ -25,7 +25,7 @@ def post_process_tree(source_root, log_dir):
                 image_text = ocr_core(image)
                 result = check(file_name, image_text)
                 create_log(log_dir, result)
-    print(rf"Log file with details: {os.path.abspath(log_dir)}\log.txt")
+    print(f"Log file with details: {os.path.abspath(log_dir)}\log.txt")
 """+------------------------------------------------------"""
 def get_grayscale(image):
     """Get image from the BGR color space to gray"""
